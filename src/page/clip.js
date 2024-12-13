@@ -5,7 +5,6 @@ const Clip = ({ clip }) => {
     <div className="clip">
       <h2>{clip.title}</h2>
       <p>{clip.description}</p>
-      <img src={clip.start} alt="Star rating" />
       <video controls>
         <source src={clip.source_clip} type="video/mp4" />
         Your browser does not support the video tag.
